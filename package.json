@@ -1,0 +1,19 @@
+{
+  "name": "first-bolt-app",
+  "version": "1.0.0",
+  "description": "First App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Dexter Aichele",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.4.1",
+    "base-64": "^1.0.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "pexels": "^1.2.1"
+  }
+}
