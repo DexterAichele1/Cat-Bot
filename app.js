@@ -47,7 +47,16 @@ app.message('catpic', async ({ message, say }) => {
             }
         ]
     })
-});*/
+});
+
+// Example of a slash command 
+app.command('/echo', async ({ command, ack, say }) => {
+  // Acknowledge command request
+  await ack();
+
+  await say(`${command.text}`);
+});
+*/
 
 // Pre: Action triggered when the "Click Me for a Cat" button is pressed
 // Post: Pulls a cat image from the specified URL and display it in the current Slack channel
